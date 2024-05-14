@@ -3,8 +3,6 @@ package com.raven.datechooser;
 import java.time.LocalDate;
 
 public class DateBetween {
-  public static final String DATES_FLIPPED_ERROR = "The given dates are flipped!\nThe `from` date can't be after the `to` date.";
-
   private final LocalDate from;
   private final LocalDate to;
 

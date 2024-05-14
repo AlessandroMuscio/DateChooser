@@ -8,16 +8,16 @@ import java.awt.Dimension;
 import java.awt.Insets;
 import java.awt.LayoutManager;
 
-import javax.swing.JLabel;
+import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class DateChooserLayout implements LayoutManager {
   private final JPanel pnlHeader;
   private final JPanel pnlTitle;
   private final JPanel pnlDate;
-  private final JLabel lblCurrentDate;
+  private final JButton lblCurrentDate;
 
-  public DateChooserLayout(JPanel pnlHeader, JPanel pnlTitle, JPanel pnlDate, JLabel lblCurrentDate) {
+  public DateChooserLayout(JPanel pnlHeader, JPanel pnlTitle, JPanel pnlDate, JButton lblCurrentDate) {
     this.pnlHeader = pnlHeader;
     this.pnlTitle = pnlTitle;
     this.pnlDate = pnlDate;
